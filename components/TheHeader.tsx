@@ -2,7 +2,7 @@ import React from 'react'
 
 const TheHeader = () => {
   return (
-    <div>TheHeader</div>
+    <header className='w-full h-16 flex justify-center items-center'>Algorithm Visualizer</header>
   )
 }
 
