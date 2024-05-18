@@ -9,3 +9,15 @@ export class ListNode {
         this.prev = prev
     }
 }
+
+export class TreeNode {
+    public value: any
+    public left: TreeNode
+    public right: TreeNode
+
+    constructor(value, left=null, right=null) {
+        this.value = value
+        this.left = left
+        this.right = right
+    }
+}
